@@ -1,2 +1,5 @@
-for i in range(1000000):
-    print(i)
+def test():
+    print("In test function")
+    return 1
+
+test()
