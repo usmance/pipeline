@@ -6,6 +6,11 @@ pipeline {
                 sh 'python3 hello-world.py'
             }
         }
+        stage('Test') {
+            steps {
+                sh 'python3 test.py'
+            }
+        }
     }
  
 }
