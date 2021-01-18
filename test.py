@@ -1,9 +1,6 @@
 
 def test(num):
-    try:
-        if num==1
-    except expression as identifier:
-        raise "Some error"
-        
+    if num==2:
+        raise ValueError('The value should be less than 2')
 
 test(2)
