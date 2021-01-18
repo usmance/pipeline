@@ -1,5 +1,9 @@
-def test():
-    print("In test function")
-    return 1
 
-test()
+def test(num):
+    try:
+        if num==1
+    except expression as identifier:
+        raise "Some error"
+        
+
+test(2)
